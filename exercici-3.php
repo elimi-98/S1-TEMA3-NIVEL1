@@ -12,7 +12,7 @@ function contenenMateixCaracter($paraules, $caracter){
     return true; 
 }
 
-if(contenenMateixCaracter($paraules, "n")){
+if(contenenMateixCaracter($paraules, $caracter)){
     echo 'Totes les paraules contenen el mateix caràcter.';
 }else{
     echo 'No totes les paraules contenen el mateix caràcter.'; 
